@@ -143,4 +143,5 @@ CORS_ORIGIN_WHITELIST = [
 ]
 CORS_ALLOWED_ORIGIN=[
     'http://localhost:4200',
+    'https://bookstore-django-api.herokuapp.com/'
 ]
