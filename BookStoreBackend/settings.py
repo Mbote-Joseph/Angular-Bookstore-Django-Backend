@@ -86,6 +86,9 @@ WSGI_APPLICATION = 'BookStoreBackend.wsgi.application'
 # }
 
 default_dburl = 'sqlite:///' + BASE_DIR / 'db.sqlite3'
+DATABASES = {
+    'default': config('DATABASE_URL', default=default_dburl, cast=parse)
+}
 
 
 # Password validation
