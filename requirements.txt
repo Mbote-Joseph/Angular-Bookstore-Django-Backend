@@ -1,0 +1,14 @@
+dj_database_url==1.0.0
+dj_static==0.0.6
+Django==4.1
+djangorestframework==3.13.1
+python-decouple==3.6
+gunicorn
+psycopg2==2.8.1
+django-cors-headers==2.4.0
+django-filter==2.2.0
+django-rest-swagger==0.2.1
+django-rest-swagger-generator==0.3.0
+django-rest-swagger-renderer==0.3.0
+django-rest-swagger-ui==0.3.0
+django-rest-swagger-views==0.3.0
